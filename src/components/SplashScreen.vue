@@ -1,7 +1,8 @@
 <template>
   <div class="splash-container" :class="{ 'splash-exit': exitStarted }" @click="startExit">
     <div class="splash-content">
-      <h1>Bienvenue</h1>
+      <h1>Bienvenue sur le portfolio de</h1>
+      <h1>Briac Villeneuve</h1>
       <p class="blink-text">Cliquez n'importe où pour accéder au site</p>
     </div>
   </div>
@@ -18,9 +19,9 @@ export default {
   methods: {
     startExit() {
       if (this.exitStarted) return;
-      
+
       this.exitStarted = true;
-      
+
       // Attendre que l'animation se termine avant de supprimer complètement
       setTimeout(() => {
         this.dismissed = true;
@@ -79,12 +80,24 @@ p {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
 }
 </style>

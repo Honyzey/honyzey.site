@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>&copy; 2023 Mon Portfolio. Tous droits réservés.</p>
+        <p>&copy; 2025 Portfolio - Briac Villeneuve. Tous droits réservés.</p>
         <nav>
             <ul>
                 <li><a href="#about">À propos</a></li>
@@ -33,7 +33,8 @@ footer {
     background-color: var(--color-primary);
     width: 100%;
     text-align: center;
-    border-radius: 10px;
     padding-bottom: 20px;
+
+    border-top: 5px solid var(--color-secondary);
 }
 </style>
