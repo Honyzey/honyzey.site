@@ -6,21 +6,21 @@
 
     <div class="app-container" :class="{ 'app-visible': !showSplash }">
 
-      <Header/>
+      <Header />
 
       <main class="content">
-      
-        <h1>Mon portfolio</h1>
-      
+
+        <EpreuveE5 />
+
       </main>
 
-      <Footer/>
+      <Footer />
 
     </div>
 
   </div>
-  
- 
+
+
 </template>
 
 <script>
@@ -28,12 +28,15 @@ import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import SplashScreen from './components/SplashScreen.vue';
 
+import EpreuveE5 from './components/sections/EpreuveE5.vue';
+
 export default {
   name: 'App',
   components: {
     Header,
     Footer,
-    SplashScreen
+    SplashScreen,
+    EpreuveE5
   },
 
   data() {
@@ -50,7 +53,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .app-container {
   display: flex;
   flex-direction: column;
