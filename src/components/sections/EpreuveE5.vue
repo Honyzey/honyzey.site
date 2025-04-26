@@ -45,10 +45,25 @@
             </details>
 
             <details>
+                <summary style="cursor: pointer">Stage Mister Fix</summary>
+                <div class="pdf-container">
+                    <embed src="/preuveE5/misterfix1.pdf" type="application/pdf" width="100%" height="600px" />
+                </div>
+                <div class="pdf-container">
+                    <embed src="/preuveE5/misterfix2.pdf" type="application/pdf" width="100%" height="600px" />
+                </div>
+            </details>
+
+            <details>
                 <summary style="cursor: pointer">Stage Jean Paul II</summary>
                 <a href="https://github.com/Honyzey/triClasseV4" target="_blank">Lien vers le github du projet de
                     stage</a>
                 <a href="https://tricls.honyzey.site" target="_blank">Lien vers la preview du projet</a>
+            </details>
+
+            <details>
+                <summary style="cursor: pointer">Profil Linkedin</summary>
+                <a href="www.linkedin.com/in/briac-villeneuve-9407bb291" target="_blank">Liens vers mon linkedin</a>
             </details>
 
         </Modal>
