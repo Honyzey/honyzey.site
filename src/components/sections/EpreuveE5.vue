@@ -1,6 +1,6 @@
 <template>
     <section id="epreuve">
-        <h1>Preuve Epreuve E5</h1>
+        <h1>Parcours de certification</h1>
         <a href="https://www.canva.com/design/DAGkOL8c5mg/8nuvC9LZYiINH9EgujZDew/edit?utm_content=DAGkOL8c5mg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank">Lien
             vers le diaporama<br></a>
@@ -8,7 +8,7 @@
         <a href="#" @click.prevent="showModal = true">Lien vers les preuves</a>
 
         <Modal :visible="showModal" @close="showModal = false" class="modal">
-            <h2>Preuves Epreuve E5</h2>
+            <h2>Preuves</h2>
 
             <details>
                 <summary style="cursor: pointer">Certification PIX</summary>
@@ -18,25 +18,20 @@
             </details>
 
             <details>
-                <summary style="cursor: pointer">Projet Trace GPS</summary>
-
-                <a href="https://github.com/Honyzey/applicationWebMobile-TraceGPS" target="_blank">Lien vers le
-                    github</a>
-
-                <h3>Page d'acceuil de traceGPS</h3>
-                <img src="/preuveE5/acceuiltracegps.png" width="70%" height="70%" />
-
-                <h3>Mise en place de sécurité des mots de passe</h3>
-                <img src="/preuveE5/secumdp.png" width="70%" height="70%" />
-
-                <h3>Page d'acceuil une fois connecter</h3>
-                <img src="/preuveE5/AcceuilCompte.png" width="70%" height="70%" />
-
+                <summary style="cursor: pointer">Certification</summary>
+                <img class="certif" src="/preuveE5/certificationOpenClassroom.png" width="50%" height="50%" />
             </details>
 
             <details>
-                <summary style="cursor: pointer">Certification</summary>
-                <img class="certif" src="/preuveE5/certificationOpenClassroom.png" width="50%" height="50%" />
+                <summary style="cursor: pointer;">Vue JS</summary>
+                <a href="https://fr.vuejs.org/guide/introduction.html" target="_blank">Lien vers la documentation de
+                    vue.js</a>
+            </details>
+
+            <details>
+                <summary style="cursor: pointer;">Next JS</summary>
+                <a href="https://fr.vuejs.org/guide/introduction.html" target="_blank">Lien vers la certification
+                    officiel Next.js</a>
             </details>
 
             <details>
@@ -45,25 +40,10 @@
             </details>
 
             <details>
-                <summary style="cursor: pointer">Stage Mister Fix</summary>
-                <div class="pdf-container">
-                    <embed src="/preuveE5/misterfix1.pdf" type="application/pdf" width="100%" height="600px" />
-                </div>
-                <div class="pdf-container">
-                    <embed src="/preuveE5/misterfix2.pdf" type="application/pdf" width="100%" height="600px" />
-                </div>
-            </details>
-
-            <details>
                 <summary style="cursor: pointer">Stage Jean Paul II</summary>
                 <a href="https://github.com/Honyzey/triClasseV4" target="_blank">Lien vers le github du projet de
                     stage</a>
                 <a href="https://tricls.honyzey.site" target="_blank">Lien vers la preview du projet</a>
-            </details>
-
-            <details>
-                <summary style="cursor: pointer">Profil Linkedin</summary>
-                <a href="www.linkedin.com/in/briac-villeneuve-9407bb291" target="_blank">Liens vers mon linkedin</a>
             </details>
 
         </Modal>
