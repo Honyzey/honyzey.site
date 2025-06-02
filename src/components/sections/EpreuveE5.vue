@@ -1,7 +1,7 @@
 <template>
     <section id="epreuve">
         <h1>Parcours de certification</h1>
-        <a href="https://www.canva.com/design/DAGkOL8c5mg/8nuvC9LZYiINH9EgujZDew/edit?utm_content=DAGkOL8c5mg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        <a href="https://www.canva.com/design/DAGo6nW6CVE/mFEPI_o8n4EF7jwSocCO3g/edit?utm_content=DAGo6nW6CVE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank">Lien
             vers le diaporama<br></a>
 
