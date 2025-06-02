@@ -20,7 +20,7 @@
             <details>
                 <summary style="cursor: pointer">Certification</summary>
                 <img class="certif" src="/preuveE5/certificationOpenClassroom.png" width="50%" height="50%" />
-                <img class="certif " src="/preuveE5/sencum.png">
+                <img class="certif " src="/preuveE5/secnum.png">
             </details>
 
             <details>
